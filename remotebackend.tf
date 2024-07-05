@@ -1,9 +1,8 @@
 terraform {
   backend "azurerm" {
-    storage_account_name = "tfstaterg1234"
-    container_name       = "tfstate1"
+    storage_account_name = "tf7379storage"
+    container_name       = "tfstatecont"
     key                  = "terraformpipe.tfstate"
     use_azuread_auth     = true
-    access_key = "icU7ar7JOM/H4G+VKcvVLjEuG/KuNK+WINhSfCyTCoT0+Ozi0mc4orP3pCiadOjGq2WMDhtRu8TM+AStY9OTFQ=="
-  }
+    access_key = "92tRqyFpu+LAJ+i5PNT1sISqvUfq44f/0taVa0Wcw+qpgfobROfiypPMMXLTtujXuRER7/mxyPQ1+AStIMppEg=="
 }
